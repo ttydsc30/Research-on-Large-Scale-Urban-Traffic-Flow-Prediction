@@ -1,13 +1,21 @@
-本项目以 LargeST（CityMind Lab）多城市交通流量数据集为基础，构建多模型交通流量预测系统，并通过 Dash 仪表盘进行可视化展示。
-一、项目概览
+# TrafficForecast-LargeST 项目交接说明文档
 
-数据源：LargeST 数据集（包含路网结构、气象、节假日信息等）
-目标任务：基于历史流量预测未来流量（5min / 1h 粒度）
-核心模型：LSTM、DCRNN、ASTGCN
-主要输出：预测结果 .npz 文件与交互式可视化 Dash 仪表盘
+本项目以 **LargeST（CityMind Lab）多城市交通流量数据集** 为基础，构建多模型交通流量预测系统，并通过 **Dash 仪表盘** 进行可视化展示。
 
-二、项目目录结构
+---
 
+## 一、项目概览
+
+- **数据源**：LargeST 数据集（包含路网结构、气象、节假日信息等）  
+- **目标任务**：基于历史流量预测未来流量（5min / 1h 粒度）  
+- **核心模型**：LSTM、DCRNN、ASTGCN  
+- **主要输出**：预测结果 `.npz` 文件与交互式可视化 Dash 仪表盘  
+
+---
+
+## 二、项目目录结构
+
+```plaintext
 TrafficForecast-LargeST/
 ├─ data/
 │  ├─ raw/                  # 原始数据（HDF5、metadata、adjacency）
@@ -33,6 +41,7 @@ TrafficForecast-LargeST/
 ├─ requirements.txt
 ├─ run.sh
 └─ README.md
+
 
 三、环境配置
 
