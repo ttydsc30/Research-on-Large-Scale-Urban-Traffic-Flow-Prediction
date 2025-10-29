@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-10-18T17:23:49",
+  "pred_dir": "D:\\TrafficForecastLargeST\\predictions",
+  "meta": "D:\\TrafficForecastLargeST\\data\\raw\\metadata.csv",
+  "adj": "D:\\TrafficForecastLargeST\\data\\raw\\adjacency.npy",
+  "npz_files": [
+    {
+      "file": "predictions\\pred_cache_1h.npz_astgcn.npz",
+      "keys": [
+        "preds",
+        "gts",
+        "columns",
+        "scaler_mean",
+        "scaler_std"
+      ],
+      "preds_shape": [
+        1739,
+        3,
+        300,
+        1
+      ],
+      "gts_shape": [
+        1739,
+        3,
+        300,
+        1
+      ],
+      "columns_len": 300,
+      "columns_dtype": "<U6",
+      "scaler_mean": 172.7548828125,
+      "scaler_std": 140.34474182128906,
+      "errors": [],
+      "preds_mean_std": [
+        -0.1629258692264557,
+        0.6544049382209778
+      ],
+      "gts_mean_std": [
+        -0.06813474744558334,
+        0.8793898820877075
+      ]
+    },
+    {
+      "file": "predictions\\pred_cache_1h.npz_dcrnn.npz",
+      "keys": [
+        "preds",
+        "gts",
+        "columns",
+        "scaler_mean",
+        "scaler_std"
+      ],
+      "preds_shape": [
+        1739,
+        3,
+        300,
+        1
+      ],
+      "gts_shape": [
+        1739,
+        3,
+        300,
+        1
+      ],
+      "columns_len": 300,
+      "columns_dtype": "<U6",
+      "scaler_mean": 172.7548828125,
+      "scaler_std": 140.34474182128906,
+      "errors": [],
+      "preds_mean_std": [
+        -0.06591490656137466,
+        0.8011975288391113
+      ],
+      "gts_mean_std": [
+        -0.06813474744558334,
+        0.8793898820877075
+      ]
+    },
+    {
+      "file": "predictions\\pred_cache_5m.npz_lstm.npz",
+      "keys": [
+        "preds",
+        "gts",
+        "columns",
+        "scaler_mean",
+        "scaler_std"
+      ],
+      "preds_shape": [
+        1751,
+        3,
+        300,
+        1
+      ],
+      "gts_shape": [
+        1751,
+        3,
+        300,
+        1
+      ],
+      "columns_len": 300,
+      "columns_dtype": "<U6",
+      "scaler_mean": 172.7548370361328,
+      "scaler_std": 143.09561157226562,
+      "errors": [],
+      "preds_mean_std": [
+        -0.14376719295978546,
+        0.8498210906982422
+      ],
+      "gts_mean_std": [
+        -0.1387101411819458,
+        0.8601851463317871
+      ]
+    }
+  ],
+  "adjacency": {
+    "file": "data/raw/adjacency.npy",
+    "exists": true,
+    "shape": [
+      8600,
+      8600
+    ],
+    "nnz": 209963,
+    "sparsity": 0.9971611276365603,
+    "symmetric": false,
+    "min": 0.0,
+    "max": 1.0
+  },
+  "metadata": {
+    "id_col": "ID",
+    "lat_col": "Lat",
+    "lon_col": "Lng",
+    "match_mode": "exact",
+    "matched": 300,
+    "total": 300,
+    "match_ratio": 1.0,
+    "sample_csv": "D:\\TrafficForecastLargeST\\viz\\inspections\\columns_geo_sample.csv"
+  }
+}
