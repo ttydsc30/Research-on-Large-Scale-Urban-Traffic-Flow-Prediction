@@ -1,4 +1,4 @@
-# TrafficForecast-LargeST 项目交接说明文档
+# TrafficForecast-LargeST 项目说明文档
 
 本项目以 LargeST（CityMind Lab）多城市交通流量数据集为基础，构建多模型交通流量预测系统，并通过 Dash 仪表盘进行可视化展示。
 
